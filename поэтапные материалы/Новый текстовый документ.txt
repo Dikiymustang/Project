@@ -14,11 +14,11 @@ line-height - для вертикального выравнивания шрифта по середине высоты.
 если мы придадим кнопке display: flex; то растащится вправо  
 
 
-onclick="location.href='ссылка для перехода в своем локальном каталоге' 
+onclick="location.href='ссылка для перехода' 
 
 cursor: pointer; 
 
+<span class="worm__button" onclick="location.href='https://www.lamoda.ru/bs-click/784840?hit_id=6123924274864681155&amp;creative_id=760585&amp;slot_name=top_promobar_cat&amp;aim=/c/4153/default-women/%3Fis_sale%3D1%26display_locations%3Doutlet%26sitelink%3DtopmenuW'; return false;"><b>Женщинам</b></span>
 
-https://github.com/ShellKhan/learning/tree/site1 - ссылка на реппозиторий КА 
 
 240мин - после перерыва 2. создаём вторую страницу

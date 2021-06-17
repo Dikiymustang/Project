@@ -13,6 +13,14 @@ body {
 a {
 	text-decoration: none;
 }
+a:link {
+    color: #0000d0; /* Цвет ссылок */
+    padding: 2px; /* Поля вокруг текста */ 
+   }
+   a:hover {
+    background: #786b59; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+   } 
  
 /* header */
 .topheader {
@@ -21,7 +29,7 @@ a {
 	line-height: 40px;
 }
 .bottomheader {
-	background: #f93c00;
+	background: #deb7e4;
 	color: #fff;
 	line-height:30px;
 	padding: 10px 0;
@@ -44,10 +52,12 @@ a {
 	display: inline-block;
 	margin: 0 0 0 20px;
 	cursor: pointer;
+	
 	/*flex: none; вариант 1 */
 }
 .fakebutton:hover {
-	
+color: #deb7e4; /* Цвет текста активного пункта */
+background-color: #fff; /* Цвет фона активного пункта */	
 }
 
 /* footer */
